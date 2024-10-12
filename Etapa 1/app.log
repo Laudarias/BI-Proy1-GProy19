@@ -561,3 +561,309 @@
 2024-10-12 13:43:29,907 - INFO -  * Restarting with stat
 2024-10-12 13:43:42,431 - WARNING -  * Debugger is active!
 2024-10-12 13:43:42,431 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 15:13:22,921 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-12 15:13:22,921 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-12 15:13:22,923 - INFO -  * Restarting with stat
+2024-10-12 15:13:34,887 - WARNING -  * Debugger is active!
+2024-10-12 15:13:34,887 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 15:13:51,030 - INFO - 127.0.0.1 - - [12/Oct/2024 15:13:51] "GET / HTTP/1.1" 200 -
+2024-10-12 15:13:56,671 - INFO - 127.0.0.1 - - [12/Oct/2024 15:13:56] "POST /predict_text HTTP/1.1" 200 -
+2024-10-12 15:14:37,528 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\api.py', reloading
+2024-10-12 15:14:37,937 - INFO -  * Restarting with stat
+2024-10-12 15:14:49,885 - WARNING -  * Debugger is active!
+2024-10-12 15:14:49,885 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 15:17:50,755 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\api.py', reloading
+2024-10-12 15:17:51,149 - INFO -  * Restarting with stat
+2024-10-12 15:18:03,012 - WARNING -  * Debugger is active!
+2024-10-12 15:18:03,015 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 15:18:23,244 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\modelo.py', reloading
+2024-10-12 15:18:23,666 - INFO -  * Restarting with stat
+2024-10-12 15:18:35,772 - WARNING -  * Debugger is active!
+2024-10-12 15:18:35,779 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 15:18:36,806 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\modelo.py', reloading
+2024-10-12 15:18:37,237 - INFO -  * Restarting with stat
+2024-10-12 15:18:41,638 - WARNING -  * Debugger is active!
+2024-10-12 15:18:41,642 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 15:19:05,907 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\api.py', reloading
+2024-10-12 15:19:06,315 - INFO -  * Restarting with stat
+2024-10-12 15:19:10,372 - WARNING -  * Debugger is active!
+2024-10-12 15:19:10,374 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 15:19:15,451 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\api.py', reloading
+2024-10-12 15:19:15,866 - INFO -  * Restarting with stat
+2024-10-12 15:19:20,130 - WARNING -  * Debugger is active!
+2024-10-12 15:19:20,145 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 15:19:56,478 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\api.py', reloading
+2024-10-12 15:19:56,898 - INFO -  * Restarting with stat
+2024-10-12 15:20:00,853 - WARNING -  * Debugger is active!
+2024-10-12 15:20:00,856 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 15:20:20,081 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\api.py', reloading
+2024-10-12 15:20:20,508 - INFO -  * Restarting with stat
+2024-10-12 15:20:24,815 - WARNING -  * Debugger is active!
+2024-10-12 15:20:24,818 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 15:20:34,940 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\api.py', reloading
+2024-10-12 15:20:35,395 - INFO -  * Restarting with stat
+2024-10-12 15:20:39,876 - WARNING -  * Debugger is active!
+2024-10-12 15:20:39,878 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 15:20:42,925 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\api.py', reloading
+2024-10-12 15:20:43,414 - INFO -  * Restarting with stat
+2024-10-12 15:20:47,538 - WARNING -  * Debugger is active!
+2024-10-12 15:20:47,541 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 15:21:19,883 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\api.py', reloading
+2024-10-12 15:21:20,296 - INFO -  * Restarting with stat
+2024-10-12 15:21:24,277 - WARNING -  * Debugger is active!
+2024-10-12 15:21:24,280 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 15:24:08,856 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\api.py', reloading
+2024-10-12 15:24:09,272 - INFO -  * Restarting with stat
+2024-10-12 15:24:13,297 - WARNING -  * Debugger is active!
+2024-10-12 15:24:13,302 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 15:24:15,330 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\api.py', reloading
+2024-10-12 15:24:15,744 - INFO -  * Restarting with stat
+2024-10-12 15:24:19,764 - WARNING -  * Debugger is active!
+2024-10-12 15:24:19,767 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 15:24:26,839 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\api.py', reloading
+2024-10-12 15:24:27,258 - INFO -  * Restarting with stat
+2024-10-12 15:24:31,159 - WARNING -  * Debugger is active!
+2024-10-12 15:24:31,161 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 15:26:06,152 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\api.py', reloading
+2024-10-12 15:26:06,585 - INFO -  * Restarting with stat
+2024-10-12 15:43:34,499 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-12 15:43:34,499 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-12 15:43:34,499 - INFO -  * Restarting with stat
+2024-10-12 15:43:38,183 - WARNING -  * Debugger is active!
+2024-10-12 15:43:38,183 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 15:43:47,440 - ERROR - Error al leer el texto JSON: the JSON object must be str, bytes or bytearray, not list
+2024-10-12 15:43:47,440 - INFO - 127.0.0.1 - - [12/Oct/2024 15:43:47] "[31m[1mPOST /predict_text HTTP/1.1[0m" 400 -
+2024-10-12 15:47:47,497 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\api.py', reloading
+2024-10-12 15:47:47,900 - INFO -  * Restarting with stat
+2024-10-12 15:47:52,042 - WARNING -  * Debugger is active!
+2024-10-12 15:47:52,045 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 15:48:00,963 - INFO - 127.0.0.1 - - [12/Oct/2024 15:48:00] "[35m[1mPOST /predict_text HTTP/1.1[0m" 500 -
+2024-10-12 15:48:34,476 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\api.py', reloading
+2024-10-12 15:48:34,926 - INFO -  * Restarting with stat
+2024-10-12 15:48:39,280 - WARNING -  * Debugger is active!
+2024-10-12 15:48:39,284 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 15:50:53,647 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\api.py', reloading
+2024-10-12 15:50:54,065 - INFO -  * Restarting with stat
+2024-10-12 15:51:15,869 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-12 15:51:15,869 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-12 15:51:15,871 - INFO -  * Restarting with stat
+2024-10-12 15:51:19,475 - WARNING -  * Debugger is active!
+2024-10-12 15:51:19,478 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 15:51:29,020 - ERROR - Error al leer el texto JSON: the JSON object must be str, bytes or bytearray, not Response
+2024-10-12 15:51:29,020 - INFO - 127.0.0.1 - - [12/Oct/2024 15:51:29] "[31m[1mPOST /predict_text HTTP/1.1[0m" 400 -
+2024-10-12 15:51:56,824 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\prueba.py', reloading
+2024-10-12 15:51:57,180 - INFO -  * Restarting with stat
+2024-10-12 15:52:01,496 - WARNING -  * Debugger is active!
+2024-10-12 15:52:01,505 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 15:52:09,609 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\prueba.py', reloading
+2024-10-12 15:52:10,015 - INFO -  * Restarting with stat
+2024-10-12 15:52:14,199 - WARNING -  * Debugger is active!
+2024-10-12 15:52:14,202 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 15:53:00,661 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\api.py', reloading
+2024-10-12 15:53:01,116 - INFO -  * Restarting with stat
+2024-10-12 15:53:05,475 - WARNING -  * Debugger is active!
+2024-10-12 15:53:05,475 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 15:54:38,432 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\api.py', reloading
+2024-10-12 15:54:38,875 - INFO -  * Restarting with stat
+2024-10-12 15:54:43,189 - WARNING -  * Debugger is active!
+2024-10-12 15:54:43,192 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 15:55:55,261 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-12 15:55:55,261 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-12 15:55:55,261 - INFO -  * Restarting with stat
+2024-10-12 15:55:59,034 - WARNING -  * Debugger is active!
+2024-10-12 15:55:59,034 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 15:56:13,238 - ERROR - Error al leer el texto JSON: the JSON object must be str, bytes or bytearray, not Response
+2024-10-12 15:56:13,239 - INFO - 127.0.0.1 - - [12/Oct/2024 15:56:13] "[31m[1mPOST /predict_text HTTP/1.1[0m" 400 -
+2024-10-12 15:56:40,489 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\api.py', reloading
+2024-10-12 15:56:40,974 - INFO -  * Restarting with stat
+2024-10-12 15:57:20,659 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-12 15:57:20,659 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-12 15:57:20,676 - INFO -  * Restarting with stat
+2024-10-12 15:57:24,457 - WARNING -  * Debugger is active!
+2024-10-12 15:57:24,465 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 15:57:33,323 - INFO - 127.0.0.1 - - [12/Oct/2024 15:57:33] "[35m[1mPOST /predict_text HTTP/1.1[0m" 500 -
+2024-10-12 15:57:52,741 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\api.py', reloading
+2024-10-12 15:57:53,167 - INFO -  * Restarting with stat
+2024-10-12 15:58:04,127 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-12 15:58:04,127 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-12 15:58:04,128 - INFO -  * Restarting with stat
+2024-10-12 15:58:07,632 - WARNING -  * Debugger is active!
+2024-10-12 15:58:07,632 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 15:58:13,673 - ERROR - Error al leer el texto JSON: the JSON object must be str, bytes or bytearray, not Response
+2024-10-12 15:58:13,673 - INFO - 127.0.0.1 - - [12/Oct/2024 15:58:13] "[31m[1mPOST /predict_text HTTP/1.1[0m" 400 -
+2024-10-12 15:59:35,529 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\api.py', reloading
+2024-10-12 15:59:36,004 - INFO -  * Restarting with stat
+2024-10-12 15:59:39,987 - WARNING -  * Debugger is active!
+2024-10-12 15:59:39,987 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 15:59:55,995 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-12 15:59:55,995 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-12 15:59:55,995 - INFO -  * Restarting with stat
+2024-10-12 15:59:59,554 - WARNING -  * Debugger is active!
+2024-10-12 15:59:59,557 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 16:00:06,827 - ERROR - Error al leer el texto JSON: the JSON object must be str, bytes or bytearray, not list
+2024-10-12 16:00:06,828 - INFO - 127.0.0.1 - - [12/Oct/2024 16:00:06] "[31m[1mPOST /predict_text HTTP/1.1[0m" 400 -
+2024-10-12 16:02:01,779 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\prueba.py', reloading
+2024-10-12 16:02:02,193 - INFO -  * Restarting with stat
+2024-10-12 16:02:06,194 - WARNING -  * Debugger is active!
+2024-10-12 16:02:06,210 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 16:02:20,345 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\prueba.py', reloading
+2024-10-12 16:02:20,762 - INFO -  * Restarting with stat
+2024-10-12 16:02:25,175 - WARNING -  * Debugger is active!
+2024-10-12 16:02:25,178 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 16:02:44,028 - ERROR - Error al leer el texto JSON: the JSON object must be str, bytes or bytearray, not list
+2024-10-12 16:02:44,028 - INFO - 127.0.0.1 - - [12/Oct/2024 16:02:44] "[31m[1mPOST /predict_text HTTP/1.1[0m" 400 -
+2024-10-12 16:12:47,352 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-12 16:12:47,352 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-12 16:12:47,353 - INFO -  * Restarting with stat
+2024-10-12 16:12:51,017 - WARNING -  * Debugger is active!
+2024-10-12 16:12:51,017 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 16:13:01,495 - INFO - 127.0.0.1 - - [12/Oct/2024 16:13:01] "[33mGET /daily HTTP/1.1[0m" 404 -
+2024-10-12 16:13:04,995 - INFO - 127.0.0.1 - - [12/Oct/2024 16:13:04] "GET / HTTP/1.1" 200 -
+2024-10-12 16:22:22,577 - INFO - 127.0.0.1 - - [12/Oct/2024 16:22:22] "POST /predict HTTP/1.1" 200 -
+2024-10-12 16:22:36,725 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\app.py', reloading
+2024-10-12 16:22:37,183 - INFO -  * Restarting with stat
+2024-10-12 16:23:19,472 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-12 16:23:19,472 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-12 16:23:19,473 - INFO -  * Restarting with stat
+2024-10-12 16:23:23,350 - WARNING -  * Debugger is active!
+2024-10-12 16:23:23,350 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 16:23:23,947 - INFO - 127.0.0.1 - - [12/Oct/2024 16:23:23] "GET / HTTP/1.1" 200 -
+2024-10-12 16:24:00,724 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\app.py', reloading
+2024-10-12 16:24:01,136 - INFO -  * Restarting with stat
+2024-10-12 16:24:43,013 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-12 16:24:43,013 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-12 16:24:43,013 - INFO -  * Restarting with stat
+2024-10-12 16:24:46,648 - WARNING -  * Debugger is active!
+2024-10-12 16:24:46,651 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 16:24:46,664 - INFO - 127.0.0.1 - - [12/Oct/2024 16:24:46] "GET / HTTP/1.1" 200 -
+2024-10-12 16:25:01,019 - ERROR - Error al leer el archivo JSON: 'list' object has no attribute 'read'
+2024-10-12 16:25:01,019 - INFO - 127.0.0.1 - - [12/Oct/2024 16:25:01] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2024-10-12 16:26:23,715 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\app.py', reloading
+2024-10-12 16:26:24,356 - INFO -  * Restarting with stat
+2024-10-12 16:26:28,674 - WARNING -  * Debugger is active!
+2024-10-12 16:26:28,674 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 16:26:42,842 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\app.py', reloading
+2024-10-12 16:26:43,221 - INFO -  * Restarting with stat
+2024-10-12 16:26:47,633 - WARNING -  * Debugger is active!
+2024-10-12 16:26:47,635 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 16:26:49,666 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\app.py', reloading
+2024-10-12 16:26:50,065 - INFO -  * Restarting with stat
+2024-10-12 16:26:53,853 - WARNING -  * Debugger is active!
+2024-10-12 16:26:53,853 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 16:26:54,882 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\app.py', reloading
+2024-10-12 16:26:55,294 - INFO -  * Restarting with stat
+2024-10-12 16:26:59,394 - WARNING -  * Debugger is active!
+2024-10-12 16:26:59,394 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 16:27:32,062 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-12 16:27:32,062 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-12 16:27:32,063 - INFO -  * Restarting with stat
+2024-10-12 16:27:35,659 - WARNING -  * Debugger is active!
+2024-10-12 16:27:35,675 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 16:27:38,956 - INFO - 127.0.0.1 - - [12/Oct/2024 16:27:38] "GET / HTTP/1.1" 200 -
+2024-10-12 16:27:49,181 - INFO - 127.0.0.1 - - [12/Oct/2024 16:27:49] "POST /predict HTTP/1.1" 200 -
+2024-10-12 16:30:20,640 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\app.py', reloading
+2024-10-12 16:30:21,082 - INFO -  * Restarting with stat
+2024-10-12 16:30:25,283 - WARNING -  * Debugger is active!
+2024-10-12 16:30:25,286 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 16:30:31,347 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\app.py', reloading
+2024-10-12 16:30:31,799 - INFO -  * Restarting with stat
+2024-10-12 16:30:36,137 - WARNING -  * Debugger is active!
+2024-10-12 16:30:36,152 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 16:30:44,219 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\app.py', reloading
+2024-10-12 16:30:44,632 - INFO -  * Restarting with stat
+2024-10-12 16:30:48,738 - WARNING -  * Debugger is active!
+2024-10-12 16:30:48,738 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 16:33:34,409 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\app.py', reloading
+2024-10-12 16:33:34,829 - INFO -  * Restarting with stat
+2024-10-12 16:33:39,115 - WARNING -  * Debugger is active!
+2024-10-12 16:33:39,118 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 16:33:56,323 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\api.py', reloading
+2024-10-12 16:33:56,753 - INFO -  * Restarting with stat
+2024-10-12 16:34:01,090 - WARNING -  * Debugger is active!
+2024-10-12 16:34:01,093 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 16:34:05,147 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\api.py', reloading
+2024-10-12 16:34:05,598 - INFO -  * Restarting with stat
+2024-10-12 16:34:09,592 - WARNING -  * Debugger is active!
+2024-10-12 16:34:09,594 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 16:34:30,797 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\prueba.py', reloading
+2024-10-12 16:34:31,269 - INFO -  * Restarting with stat
+2024-10-12 16:34:35,582 - WARNING -  * Debugger is active!
+2024-10-12 16:34:35,582 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 16:34:37,628 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\prueba.py', reloading
+2024-10-12 16:34:38,148 - INFO -  * Restarting with stat
+2024-10-12 16:34:42,166 - WARNING -  * Debugger is active!
+2024-10-12 16:34:42,168 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 16:34:44,213 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\prueba.py', reloading
+2024-10-12 16:34:44,686 - INFO -  * Restarting with stat
+2024-10-12 16:34:48,928 - WARNING -  * Debugger is active!
+2024-10-12 16:34:48,931 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 16:35:04,388 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-12 16:35:04,388 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-12 16:35:04,388 - INFO -  * Restarting with stat
+2024-10-12 16:35:07,997 - WARNING -  * Debugger is active!
+2024-10-12 16:35:07,997 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 16:35:25,829 - INFO - 127.0.0.1 - - [12/Oct/2024 16:35:25] "[35m[1mPOST /predict_text HTTP/1.1[0m" 500 -
+2024-10-12 16:36:48,063 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\api.py', reloading
+2024-10-12 16:36:48,125 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\api.py', reloading
+2024-10-12 16:36:48,535 - INFO -  * Restarting with stat
+2024-10-12 16:36:48,615 - INFO -  * Restarting with stat
+2024-10-12 16:36:53,015 - WARNING -  * Debugger is active!
+2024-10-12 16:36:53,017 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 16:36:54,046 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\api.py', reloading
+2024-10-12 16:36:54,537 - INFO -  * Restarting with stat
+2024-10-12 16:36:58,927 - WARNING -  * Debugger is active!
+2024-10-12 16:36:58,930 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 16:37:02,994 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\api.py', reloading
+2024-10-12 16:37:03,418 - INFO -  * Restarting with stat
+2024-10-12 16:37:07,816 - WARNING -  * Debugger is active!
+2024-10-12 16:37:07,818 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 16:37:21,777 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-12 16:37:21,777 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-12 16:37:21,777 - INFO -  * Restarting with stat
+2024-10-12 16:37:25,233 - WARNING -  * Debugger is active!
+2024-10-12 16:37:25,236 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 16:37:47,807 - INFO - 127.0.0.1 - - [12/Oct/2024 16:37:47] "[35m[1mPOST /predict_text HTTP/1.1[0m" 500 -
+2024-10-12 16:38:56,834 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\api.py', reloading
+2024-10-12 16:38:57,146 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\api.py', reloading
+2024-10-12 16:38:57,331 - INFO -  * Restarting with stat
+2024-10-12 16:38:57,681 - INFO -  * Restarting with stat
+2024-10-12 16:39:01,938 - WARNING -  * Debugger is active!
+2024-10-12 16:39:01,938 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 16:39:02,045 - WARNING -  * Debugger is active!
+2024-10-12 16:39:02,045 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 16:40:51,208 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-12 16:40:51,208 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-12 16:40:51,208 - INFO -  * Restarting with stat
+2024-10-12 16:40:54,943 - WARNING -  * Debugger is active!
+2024-10-12 16:40:54,946 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 16:40:58,480 - INFO - 127.0.0.1 - - [12/Oct/2024 16:40:58] "POST /predict_text HTTP/1.1" 200 -
+2024-10-12 16:49:20,205 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\prueba.py', reloading
+2024-10-12 16:49:20,627 - INFO -  * Restarting with stat
+2024-10-12 16:49:24,744 - WARNING -  * Debugger is active!
+2024-10-12 16:49:24,747 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 16:49:29,255 - INFO - 127.0.0.1 - - [12/Oct/2024 16:49:29] "POST /predict_text HTTP/1.1" 200 -
+2024-10-12 16:49:35,848 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\prueba.py', reloading
+2024-10-12 16:49:36,278 - INFO -  * Restarting with stat
+2024-10-12 16:49:40,287 - WARNING -  * Debugger is active!
+2024-10-12 16:49:40,302 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 16:50:33,842 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\prueba.py', reloading
+2024-10-12 16:50:34,069 - INFO -  * Restarting with stat
+2024-10-12 16:50:37,741 - WARNING -  * Debugger is active!
+2024-10-12 16:50:37,744 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 16:50:39,879 - INFO - 127.0.0.1 - - [12/Oct/2024 16:50:39] "POST /predict_text HTTP/1.1" 200 -
+2024-10-12 16:50:48,980 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\prueba.py', reloading
+2024-10-12 16:50:49,492 - INFO -  * Restarting with stat

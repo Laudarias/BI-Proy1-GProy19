@@ -87,14 +87,14 @@ def home():
         <body>
             <div class="container">
                 <h1>Bienvenido a la API de Predicción</h1>
-                <p>Sube un archivo JSON o introduce textos en formato JSON para obtener predicciones.</p>
+                <p>Sube un archivo XLSX o introduce textos en formato JSON para obtener predicciones.</p>
                 {% if message %}
                     <p class="message">{{ message }}</p>
                 {% endif %}
                 
                 <form action="/predict" method="post" enctype="multipart/form-data">
-                    <h2>Subir archivo JSON para predicción</h2>
-                    <input type="file" name="file" accept=".json" required>
+                    <h2>Subir archivo XLSX para predicción</h2>
+                    <input type="file" name="file" accept=".xlsx" required>
                     <input type="submit" value="Predecir">
                 </form>
 
@@ -122,12 +122,12 @@ def predict():
     
     file = request.files['file']
 
-    try:
-        json_data = json.load(file)
-    except Exception as e:
-        logging.error(f"Error al leer el archivo JSON: {str(e)}")
-        return jsonify({'error': 'El archivo no se pudo leer. Asegúrate de que sea un archivo .json válido.'}), 400
-    
+    df = pd.read_excel(file)
+
+    textos = df.iloc[1:, 0].tolist()
+
+    json_data = [{"Textos_espanol": texto} for texto in textos]
+
     if not isinstance(json_data, list) or len(json_data) == 0 or 'Textos_espanol' not in json_data[0]:
         logging.error("El formato del JSON es incorrecto.")
         return jsonify({'error': "El archivo debe contener una lista de objetos con la clave 'Textos_espanol'."}), 400
@@ -172,6 +172,7 @@ def predict_text():
 
     try:
         predictions = pipeline.predict(texts)
+        print(predictions)
         probabilities = pipeline.predict_proba(texts)
     except Exception as e:
         logging.error(f"Error al realizar la predicción: {str(e)}")

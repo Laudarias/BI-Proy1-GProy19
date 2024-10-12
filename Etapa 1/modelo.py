@@ -14,6 +14,8 @@ from sklearn.feature_extraction.text import CountVectorizer
 import subprocess
 import sys
 import nltk
+
+"""
 nltk.download('all')
 
 def install(package):
@@ -23,6 +25,8 @@ packages = ["inflect", "openpyxl", "scikit-learn"]
 
 for package in packages:
     install(package)
+
+    """
 
 class TextPreprocessing:
     def __init__(self, stopwords=stopwords.words('spanish')):
