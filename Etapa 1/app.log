@@ -2,3 +2,454 @@
  * Running on http://127.0.0.1:5000
 2024-10-11 14:31:48,168 - INFO - [33mPress CTRL+C to quit[0m
 2024-10-11 14:31:48,179 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-12 10:45:44,332 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-12 10:45:44,332 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-12 10:45:44,344 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-12 10:45:47,448 - WARNING -  * Debugger is active!
+2024-10-12 10:45:47,451 - INFO -  * Debugger PIN: 135-613-746
+2024-10-12 10:45:57,062 - INFO - 127.0.0.1 - - [12/Oct/2024 10:45:57] "GET / HTTP/1.1" 200 -
+2024-10-12 10:45:57,369 - INFO - 127.0.0.1 - - [12/Oct/2024 10:45:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-12 10:53:24,836 - INFO - 127.0.0.1 - - [12/Oct/2024 10:53:24] "POST /predict HTTP/1.1" 200 -
+2024-10-12 10:53:33,030 - INFO - 127.0.0.1 - - [12/Oct/2024 10:53:33] "POST /predict HTTP/1.1" 200 -
+2024-10-12 10:53:54,641 - INFO - 127.0.0.1 - - [12/Oct/2024 10:53:54] "POST /retrain HTTP/1.1" 200 -
+2024-10-12 10:53:59,924 - INFO - 127.0.0.1 - - [12/Oct/2024 10:53:59] "POST /predict HTTP/1.1" 200 -
+2024-10-12 11:01:40,280 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Scripts\\conda-script.py', reloading
+2024-10-12 11:01:41,448 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-12 11:01:44,826 - WARNING -  * Debugger is active!
+2024-10-12 11:01:44,826 - INFO -  * Debugger PIN: 135-613-746
+2024-10-12 11:01:45,290 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\concurrent\\__init__.py', reloading
+2024-10-12 11:01:45,296 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\idlelib\\__init__.py', reloading
+2024-10-12 11:01:45,296 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\lib2to3\\__init__.py', reloading
+2024-10-12 11:01:45,302 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\test\\__init__.py', reloading
+2024-10-12 11:01:45,302 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\turtledemo\\__init__.py', reloading
+2024-10-12 11:01:45,314 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\wsgiref\\__init__.py', reloading
+2024-10-12 11:01:45,315 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\xml\\__init__.py', reloading
+2024-10-12 11:01:45,363 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\xmlrpc\\__init__.py', reloading
+2024-10-12 11:01:45,371 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\__phello__\\__init__.py', reloading
+2024-10-12 11:01:45,381 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\adodbapi\\__init__.py', reloading
+2024-10-12 11:01:45,387 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\aext_assistant\\__init__.py', reloading
+2024-10-12 11:01:45,387 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\aext_assistant_server\\__init__.py', reloading
+2024-10-12 11:01:45,395 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\aext_core\\__init__.py', reloading
+2024-10-12 11:01:45,395 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\aext_core_server\\__init__.py', reloading
+2024-10-12 11:01:45,401 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\aext_panels\\__init__.py', reloading
+2024-10-12 11:01:45,406 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\aext_panels_server\\__init__.py', reloading
+2024-10-12 11:01:45,406 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\aext_shared\\__init__.py', reloading
+2024-10-12 11:01:45,415 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\aext_share_notebook\\__init__.py', reloading
+2024-10-12 11:01:45,415 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\aext_share_notebook_server\\__init__.py', reloading
+2024-10-12 11:01:45,417 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\aiobotocore\\__init__.py', reloading
+2024-10-12 11:01:45,424 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\aiohttp\\__init__.py', reloading
+2024-10-12 11:01:45,442 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\aiohttp\\client.py', reloading
+2024-10-12 11:01:45,468 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\aiohttp\\connector.py', reloading
+2024-10-12 11:01:45,490 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\aiohttp\\client_exceptions.py', reloading
+2024-10-12 11:01:45,502 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\aiohttp\\client_reqrep.py', reloading
+2024-10-12 11:01:45,516 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\aiohttp\\client_ws.py', reloading
+2024-10-12 11:01:45,533 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\aiohttp\\cookiejar.py', reloading
+2024-10-12 11:01:45,551 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\aiohttp\\formdata.py', reloading
+2024-10-12 11:01:45,570 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\aiohttp\\helpers.py', reloading
+2024-10-12 11:01:45,587 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\aiohttp\\http.py', reloading
+2024-10-12 11:01:45,593 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\aiohttp\\http_writer.py', reloading
+2024-10-12 11:01:45,612 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\aiohttp\\http_websocket.py', reloading
+2024-10-12 11:01:45,624 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\aiohttp\\multipart.py', reloading
+2024-10-12 11:01:45,638 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\aiohttp\\payload.py', reloading
+2024-10-12 11:01:45,648 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\aiohttp\\payload_streamer.py', reloading
+2024-10-12 11:01:45,654 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\aiohttp\\resolver.py', reloading
+2024-10-12 11:01:45,666 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\aiohttp\\streams.py', reloading
+2024-10-12 11:01:45,674 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\aiohttp\\tracing.py', reloading
+2024-10-12 11:01:45,684 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\aiohttp\\worker.py', reloading
+2024-10-12 11:01:45,696 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\aioitertools\\__init__.py', reloading
+2024-10-12 11:01:45,710 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\alabaster\\__init__.py', reloading
+2024-10-12 11:01:45,716 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\altair\\__init__.py', reloading
+2024-10-12 11:01:45,728 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\altair\\vegalite\\__init__.py', reloading
+2024-10-12 11:01:45,733 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\altair\\vegalite\\v5\\__init__.py', reloading
+2024-10-12 11:01:45,740 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\altair\\vegalite\\v5\\schema\\__init__.py', reloading
+2024-10-12 11:01:45,769 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\altair\\vegalite\\v5\\schema\\core.py', reloading
+2024-10-12 11:01:45,813 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\altair\\vegalite\\v5\\schema\\channels.py', reloading
+2024-10-12 11:01:46,095 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-12 11:01:49,319 - WARNING -  * Debugger is active!
+2024-10-12 11:01:49,319 - INFO -  * Debugger PIN: 135-613-746
+2024-10-12 11:01:49,330 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\matplotlib_inline\\__init__.py', reloading
+2024-10-12 11:01:49,346 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\mdit_py_plugins\\__init__.py', reloading
+2024-10-12 11:01:49,346 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\mdurl\\__init__.py', reloading
+2024-10-12 11:01:49,346 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\mdurl\\_decode.py', reloading
+2024-10-12 11:01:49,362 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\mdurl\\_encode.py', reloading
+2024-10-12 11:01:49,362 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\mdurl\\_format.py', reloading
+2024-10-12 11:01:49,362 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\mdurl\\_parse.py', reloading
+2024-10-12 11:01:49,377 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\mdurl\\_url.py', reloading
+2024-10-12 11:01:49,378 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\menuinst\\__init__.py', reloading
+2024-10-12 11:01:49,378 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\menuinst\\api.py', reloading
+2024-10-12 11:01:49,378 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\menuinst\\_version.py', reloading
+2024-10-12 11:01:49,394 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\missingno\\__init__.py', reloading
+2024-10-12 11:01:49,394 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\mistune\\__init__.py', reloading
+2024-10-12 11:01:49,409 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\mistune\\markdown.py', reloading
+2024-10-12 11:01:49,420 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\mistune\\block_parser.py', reloading
+2024-10-12 11:01:49,425 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\mistune\\inline_parser.py', reloading
+2024-10-12 11:01:49,425 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\mistune\\renderers.py', reloading
+2024-10-12 11:01:49,425 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\mistune\\util.py', reloading
+2024-10-12 11:01:49,441 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\mkl\\__init__.py', reloading
+2024-10-12 11:01:49,441 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\mkl_fft\\__init__.py', reloading
+2024-10-12 11:01:49,472 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\mpmath\\__init__.py', reloading
+2024-10-12 11:01:49,472 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\msgpack\\__init__.py', reloading
+2024-10-12 11:01:49,488 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\multimethod\\__init__.py', reloading
+2024-10-12 11:01:49,503 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\multipledispatch\\__init__.py', reloading
+2024-10-12 11:01:49,503 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\mypy\\__init__.py', reloading
+2024-10-12 11:01:49,519 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nacl\\__init__.py', reloading
+2024-10-12 11:01:49,520 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\navigator_updater\\__init__.py', reloading
+2024-10-12 11:01:49,520 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nbclient\\__init__.py', reloading
+2024-10-12 11:01:49,536 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nbconvert\\__init__.py', reloading
+2024-10-12 11:01:49,536 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nbconvert\\_version.py', reloading
+2024-10-12 11:01:49,536 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nbconvert\\exporters\\__init__.py', reloading
+2024-10-12 11:01:49,551 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nbconvert\\exporters\\asciidoc.py', reloading
+2024-10-12 11:01:49,551 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nbconvert\\exporters\\exporter.py', reloading
+2024-10-12 11:01:49,566 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nbconvert\\exporters\\base.py', reloading
+2024-10-12 11:01:49,566 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nbconvert\\exporters\\html.py', reloading
+2024-10-12 11:01:49,583 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nbconvert\\exporters\\latex.py', reloading
+2024-10-12 11:01:49,583 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nbconvert\\exporters\\markdown.py', reloading
+2024-10-12 11:01:49,583 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nbconvert\\exporters\\notebook.py', reloading
+2024-10-12 11:01:49,598 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nbconvert\\exporters\\pdf.py', reloading
+2024-10-12 11:01:49,598 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nbconvert\\exporters\\python.py', reloading
+2024-10-12 11:01:49,598 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nbconvert\\exporters\\qtpdf.py', reloading
+2024-10-12 11:01:49,614 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nbconvert\\exporters\\qtpng.py', reloading
+2024-10-12 11:01:49,620 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nbconvert\\exporters\\rst.py', reloading
+2024-10-12 11:01:49,620 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nbconvert\\exporters\\script.py', reloading
+2024-10-12 11:01:49,630 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nbconvert\\exporters\\slides.py', reloading
+2024-10-12 11:01:49,630 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nbconvert\\exporters\\templateexporter.py', reloading
+2024-10-12 11:01:49,646 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nbconvert\\exporters\\webpdf.py', reloading
+2024-10-12 11:01:49,662 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nbformat\\__init__.py', reloading
+2024-10-12 11:01:49,662 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nbformat\\_version.py', reloading
+2024-10-12 11:01:49,677 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nbformat\\sentinel.py', reloading
+2024-10-12 11:01:49,677 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nbformat\\converter.py', reloading
+2024-10-12 11:01:49,677 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nbformat\\notebooknode.py', reloading
+2024-10-12 11:01:49,693 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nbformat\\v4\\__init__.py', reloading
+2024-10-12 11:01:49,693 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nbformat\\v4\\nbbase.py', reloading
+2024-10-12 11:01:49,709 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nbformat\\validator.py', reloading
+2024-10-12 11:01:49,709 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nbformat\\json_compat.py', reloading
+2024-10-12 11:01:49,720 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\__init__.py', reloading
+2024-10-12 11:01:49,725 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\notebook\\__init__.py', reloading
+2024-10-12 11:01:49,725 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\notebook_shim\\__init__.py', reloading
+2024-10-12 11:01:49,725 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\npm\\__init__.py', reloading
+2024-10-12 11:01:49,756 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\numba\\__init__.py', reloading
+2024-10-12 11:01:49,772 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\numba\\core\\errors.py', reloading
+2024-10-12 11:01:49,787 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\numba\\core\\types\\__init__.py', reloading
+2024-10-12 11:01:49,787 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\numba\\core\\types\\abstract.py', reloading
+2024-10-12 11:01:49,803 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\numba\\core\\types\\containers.py', reloading
+2024-10-12 11:01:49,820 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\numba\\core\\types\\functions.py', reloading
+2024-10-12 11:01:49,820 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\numba\\core\\types\\iterators.py', reloading
+2024-10-12 11:01:49,836 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\numba\\core\\types\\misc.py', reloading
+2024-10-12 11:01:49,854 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\numba\\core\\types\\npytypes.py', reloading
+2024-10-12 11:01:49,854 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\numba\\core\\types\\scalars.py', reloading
+2024-10-12 11:01:49,869 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\numba\\core\\types\\function_type.py', reloading
+2024-10-12 11:01:49,869 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\numbergen\\__init__.py', reloading
+2024-10-12 11:01:49,885 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\numexpr\\__init__.py', reloading
+2024-10-12 11:01:49,920 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\numpy\\_typing\\_extended_precision.py', reloading
+2024-10-12 11:01:50,105 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\numpydoc\\__init__.py', reloading
+2024-10-12 11:01:50,105 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\optional_django\\__init__.py', reloading
+2024-10-12 11:01:50,105 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\overrides\\__init__.py', reloading
+2024-10-12 11:01:50,120 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\overrides\\enforce.py', reloading
+2024-10-12 11:01:50,121 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\overrides\\overrides.py', reloading
+2024-10-12 11:01:50,121 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\packaging\\__init__.py', reloading
+2024-10-12 11:01:50,138 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\pandas_profiling\\__init__.py', reloading
+2024-10-12 11:01:50,138 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\pandas_profiling\\controller\\__init__.py', reloading
+2024-10-12 11:01:50,154 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\pandas_profiling\\profile_report.py', reloading
+2024-10-12 11:01:50,156 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\pandas_profiling\\version.py', reloading
+2024-10-12 11:01:50,172 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\panel\\__init__.py', reloading
+2024-10-12 11:01:50,172 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\param\\__init__.py', reloading
+2024-10-12 11:01:50,188 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\param\\reactive.py', reloading
+2024-10-12 11:01:50,188 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\panel\\config.py', reloading
+2024-10-12 11:01:50,204 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\panel\\depends.py', reloading
+2024-10-12 11:01:50,204 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\panel\\io\\__init__.py', reloading
+2024-10-12 11:01:50,220 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\panel\\io\\cache.py', reloading
+2024-10-12 11:01:50,220 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\panel\\io\\notebook.py', reloading
+2024-10-12 11:01:50,251 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\panel\\io\\server.py', reloading
+2024-10-12 11:01:50,267 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\panel\\io\\state.py', reloading
+2024-10-12 11:01:50,267 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\panel\\layout\\__init__.py', reloading
+2024-10-12 11:01:50,282 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\panel\\layout\\accordion.py', reloading
+2024-10-12 11:01:50,282 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\panel\\layout\\card.py', reloading
+2024-10-12 11:01:50,298 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\panel\\layout\\base.py', reloading
+2024-10-12 11:01:50,298 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\panel\\layout\\feed.py', reloading
+2024-10-12 11:01:50,313 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\panel\\layout\\flex.py', reloading
+2024-10-12 11:01:50,320 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\panel\\layout\\float.py', reloading
+2024-10-12 11:01:50,320 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\panel\\layout\\grid.py', reloading
+2024-10-12 11:01:50,329 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\panel\\layout\\gridstack.py', reloading
+2024-10-12 11:01:50,561 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-12 11:01:53,825 - WARNING -  * Debugger is active!
+2024-10-12 11:01:53,827 - INFO -  * Debugger PIN: 135-613-746
+2024-10-12 11:01:53,843 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\slugify\\__init__.py', reloading
+2024-10-12 11:01:53,843 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\smart_open\\__init__.py', reloading
+2024-10-12 11:01:53,868 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\smart_open\\smart_open_lib.py', reloading
+2024-10-12 11:01:53,880 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\smart_open\\compression.py', reloading
+2024-10-12 11:01:53,885 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\smmap\\__init__.py', reloading
+2024-10-12 11:01:53,887 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\snappy\\__init__.py', reloading
+2024-10-12 11:01:53,895 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sniffio\\__init__.py', reloading
+2024-10-12 11:01:53,905 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sniffio\\_impl.py', reloading
+2024-10-12 11:01:53,912 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\snowballstemmer\\__init__.py', reloading
+2024-10-12 11:01:53,915 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sortedcontainers\\__init__.py', reloading
+2024-10-12 11:01:53,930 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sortedcontainers\\sortedlist.py', reloading
+2024-10-12 11:01:53,945 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sortedcontainers\\sortedset.py', reloading
+2024-10-12 11:01:53,960 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sortedcontainers\\sorteddict.py', reloading
+2024-10-12 11:01:53,969 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\soupsieve\\__init__.py', reloading
+2024-10-12 11:01:53,969 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\soupsieve\\util.py', reloading
+2024-10-12 11:01:53,969 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sphinx\\__init__.py', reloading
+2024-10-12 11:01:53,984 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\spyder\\__init__.py', reloading
+2024-10-12 11:01:53,984 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\spyder_kernels\\__init__.py', reloading
+2024-10-12 11:01:54,000 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sqlalchemy\\__init__.py', reloading
+2024-10-12 11:01:54,011 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sqlalchemy\\engine\\__init__.py', reloading
+2024-10-12 11:01:54,027 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sqlalchemy\\engine\\interfaces.py', reloading
+2024-10-12 11:01:54,042 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sqlalchemy\\engine\\row.py', reloading
+2024-10-12 11:01:54,042 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sqlalchemy\\engine\\_py_row.py', reloading
+2024-10-12 11:01:54,058 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sqlalchemy\\engine\\result.py', reloading
+2024-10-12 11:01:54,074 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sqlalchemy\\sql\\compiler.py', reloading
+2024-10-12 11:01:54,105 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sqlalchemy\\engine\\base.py', reloading
+2024-10-12 11:01:54,139 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sqlalchemy\\engine\\create.py', reloading
+2024-10-12 11:01:54,155 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sqlalchemy\\engine\\mock.py', reloading
+2024-10-12 11:01:54,166 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sqlalchemy\\engine\\cursor.py', reloading
+2024-10-12 11:01:54,168 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sqlalchemy\\engine\\reflection.py', reloading
+2024-10-12 11:01:54,183 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sqlalchemy\\engine\\url.py', reloading
+2024-10-12 11:01:54,196 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sqlalchemy\\inspection.py', reloading
+2024-10-12 11:01:54,203 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sqlalchemy\\pool\\__init__.py', reloading
+2024-10-12 11:01:54,211 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sqlalchemy\\pool\\impl.py', reloading
+2024-10-12 11:01:54,217 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sqlalchemy\\pool\\base.py', reloading
+2024-10-12 11:01:54,226 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sqlalchemy\\schema.py', reloading
+2024-10-12 11:01:54,236 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sqlalchemy\\sql\\ddl.py', reloading
+2024-10-12 11:01:54,249 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sqlalchemy\\sql\\schema.py', reloading
+2024-10-12 11:01:54,265 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sqlalchemy\\sql\\__init__.py', reloading
+2024-10-12 11:01:54,280 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sqlalchemy\\sql\\_typing.py', reloading
+2024-10-12 11:01:54,296 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sqlalchemy\\sql\\expression.py', reloading
+2024-10-12 11:01:54,296 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sqlalchemy\\sql\\selectable.py', reloading
+2024-10-12 11:01:54,328 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sqlalchemy\\sql\\_selectable_constructors.py', reloading
+2024-10-12 11:01:54,343 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sqlalchemy\\sql\\_elements_constructors.py', reloading
+2024-10-12 11:01:54,372 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sqlalchemy\\sql\\elements.py', reloading
+2024-10-12 11:01:54,386 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sqlalchemy\\sql\\cache_key.py', reloading
+2024-10-12 11:01:54,389 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sqlalchemy\\sql\\base.py', reloading
+2024-10-12 11:01:54,405 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sqlalchemy\\sql\\operators.py', reloading
+2024-10-12 11:01:54,426 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sqlalchemy\\sql\\dml.py', reloading
+2024-10-12 11:01:54,444 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sqlalchemy\\sql\\_dml_constructors.py', reloading
+2024-10-12 11:01:54,455 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sqlalchemy\\sql\\functions.py', reloading
+2024-10-12 11:01:54,464 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sqlalchemy\\sql\\lambdas.py', reloading
+2024-10-12 11:01:54,474 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sqlalchemy\\sql\\visitors.py', reloading
+2024-10-12 11:01:54,481 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sqlalchemy\\types.py', reloading
+2024-10-12 11:01:54,492 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sqlalchemy\\sql\\sqltypes.py', reloading
+2024-10-12 11:01:54,513 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sqlalchemy\\sql\\type_api.py', reloading
+2024-10-12 11:01:54,515 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\stack_data\\__init__.py', reloading
+2024-10-12 11:01:54,531 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\statsmodels\\__init__.py', reloading
+2024-10-12 11:01:54,533 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\statsmodels\\_version.py', reloading
+2024-10-12 11:01:54,547 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\streamlit\\__init__.py', reloading
+2024-10-12 11:01:54,578 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\streamlit\\echo.py', reloading
+2024-10-12 11:01:54,578 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\streamlit\\elements\\spinner.py', reloading
+2024-10-12 11:01:54,594 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\streamlit\\commands\\page_config.py', reloading
+2024-10-12 11:01:54,594 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\streamlit\\commands\\execution_control.py', reloading
+2024-10-12 11:01:54,668 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sympy\\assumptions\\predicates\\calculus.py', reloading
+2024-10-12 11:01:54,682 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sympy\\assumptions\\predicates\\sets.py', reloading
+2024-10-12 11:01:54,749 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sympy\\functions\\__init__.py', reloading
+2024-10-12 11:01:54,793 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sympy\\functions\\elementary\\integers.py', reloading
+2024-10-12 11:01:54,796 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sympy\\geometry\\__init__.py', reloading
+2024-10-12 11:01:54,811 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sympy\\geometry\\exceptions.py', reloading
+2024-10-12 11:01:55,062 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-12 11:01:58,140 - WARNING -  * Debugger is active!
+2024-10-12 11:01:58,140 - INFO -  * Debugger PIN: 135-613-746
+2024-10-12 11:03:18,819 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\collocations.py', reloading
+2024-10-12 11:03:18,837 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\featstruct.py', reloading
+2024-10-12 11:03:18,872 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\grammar.py', reloading
+2024-10-12 11:03:18,893 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\probability.py', reloading
+2024-10-12 11:03:18,935 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\text.py', reloading
+2024-10-12 11:03:18,955 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\util.py', reloading
+2024-10-12 11:03:18,977 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\collections.py', reloading
+2024-10-12 11:03:18,990 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\jsontags.py', reloading
+2024-10-12 11:03:19,001 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\chunk\\__init__.py', reloading
+2024-10-12 11:03:19,009 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\classify\\__init__.py', reloading
+2024-10-12 11:03:19,018 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\inference\\__init__.py', reloading
+2024-10-12 11:03:19,019 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\metrics\\__init__.py', reloading
+2024-10-12 11:03:19,019 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\parse\\__init__.py', reloading
+2024-10-12 11:03:19,034 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\tag\\__init__.py', reloading
+2024-10-12 11:03:19,051 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\tokenize\\__init__.py', reloading
+2024-10-12 11:03:19,066 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\translate\\__init__.py', reloading
+2024-10-12 11:03:19,066 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\tree\\__init__.py', reloading
+2024-10-12 11:03:19,082 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\sem\\__init__.py', reloading
+2024-10-12 11:03:19,082 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\stem\\__init__.py', reloading
+2024-10-12 11:03:19,098 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\corpus\\__init__.py', reloading
+2024-10-12 11:03:19,098 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\corpus\\reader\\__init__.py', reloading
+2024-10-12 11:03:19,124 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\corpus\\reader\\plaintext.py', reloading
+2024-10-12 11:03:19,144 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\corpus\\reader\\api.py', reloading
+2024-10-12 11:03:19,144 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\corpus\\reader\\util.py', reloading
+2024-10-12 11:03:19,155 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\corpus\\reader\\tagged.py', reloading
+2024-10-12 11:03:19,178 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\corpus\\reader\\cmudict.py', reloading
+2024-10-12 11:03:19,186 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\corpus\\reader\\conll.py', reloading
+2024-10-12 11:03:19,201 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\corpus\\reader\\chunked.py', reloading
+2024-10-12 11:03:19,202 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\corpus\\reader\\wordlist.py', reloading
+2024-10-12 11:03:19,218 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\corpus\\reader\\xmldocs.py', reloading
+2024-10-12 11:03:19,231 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\corpus\\reader\\ppattach.py', reloading
+2024-10-12 11:03:19,243 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\corpus\\reader\\senseval.py', reloading
+2024-10-12 11:03:19,258 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\corpus\\reader\\ieer.py', reloading
+2024-10-12 11:03:19,267 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\corpus\\reader\\sinica_treebank.py', reloading
+2024-10-12 11:03:19,281 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\corpus\\reader\\bracket_parse.py', reloading
+2024-10-12 11:03:19,285 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\corpus\\reader\\indian.py', reloading
+2024-10-12 11:03:19,285 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\corpus\\reader\\toolbox.py', reloading
+2024-10-12 11:03:19,301 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\corpus\\reader\\timit.py', reloading
+2024-10-12 11:03:19,301 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\corpus\\reader\\ycoe.py', reloading
+2024-10-12 11:03:19,317 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\corpus\\reader\\rte.py', reloading
+2024-10-12 11:03:19,330 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\corpus\\reader\\string_category.py', reloading
+2024-10-12 11:03:19,334 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\corpus\\reader\\propbank.py', reloading
+2024-10-12 11:03:19,350 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\corpus\\reader\\verbnet.py', reloading
+2024-10-12 11:03:19,361 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\corpus\\reader\\bnc.py', reloading
+2024-10-12 11:03:19,364 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\corpus\\reader\\nps_chat.py', reloading
+2024-10-12 11:03:19,383 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\corpus\\reader\\wordnet.py', reloading
+2024-10-12 11:03:19,405 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\corpus\\reader\\switchboard.py', reloading
+2024-10-12 11:03:19,417 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\corpus\\reader\\dependency.py', reloading
+2024-10-12 11:03:19,420 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\corpus\\reader\\nombank.py', reloading
+2024-10-12 11:03:19,432 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\corpus\\reader\\ipipan.py', reloading
+2024-10-12 11:03:19,445 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\corpus\\reader\\pl196x.py', reloading
+2024-10-12 11:03:19,455 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\corpus\\reader\\knbc.py', reloading
+2024-10-12 11:03:19,460 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\corpus\\reader\\chasen.py', reloading
+2024-10-12 11:03:19,475 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\corpus\\reader\\childes.py', reloading
+2024-10-12 11:03:19,710 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-12 11:03:23,023 - WARNING -  * Debugger is active!
+2024-10-12 11:03:23,025 - INFO -  * Debugger PIN: 135-613-746
+2024-10-12 11:06:20,282 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:06:20,282 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:06:20,282 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:06:20,713 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-12 11:06:23,935 - WARNING -  * Debugger is active!
+2024-10-12 11:06:23,935 - INFO -  * Debugger PIN: 135-613-746
+2024-10-12 11:06:23,994 - INFO - 127.0.0.1 - - [12/Oct/2024 11:06:23] "GET / HTTP/1.1" 200 -
+2024-10-12 11:06:29,827 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:06:29,827 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:06:29,827 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:06:30,215 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-12 11:06:33,297 - WARNING -  * Debugger is active!
+2024-10-12 11:06:33,299 - INFO -  * Debugger PIN: 135-613-746
+2024-10-12 11:06:33,345 - INFO - 127.0.0.1 - - [12/Oct/2024 11:06:33] "GET / HTTP/1.1" 200 -
+2024-10-12 11:07:23,781 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:07:23,782 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:07:23,782 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:07:24,148 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:07:24,150 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:07:24,724 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-12 11:07:27,874 - WARNING -  * Debugger is active!
+2024-10-12 11:07:27,874 - INFO -  * Debugger PIN: 135-613-746
+2024-10-12 11:07:27,940 - INFO - 127.0.0.1 - - [12/Oct/2024 11:07:27] "GET / HTTP/1.1" 200 -
+2024-10-12 11:07:52,426 - ERROR - El formato del JSON del área de texto es incorrecto.
+2024-10-12 11:07:52,427 - INFO - 127.0.0.1 - - [12/Oct/2024 11:07:52] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2024-10-12 11:08:05,593 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:08:05,593 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:08:05,593 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:08:05,765 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:08:05,765 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:08:05,781 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:08:05,781 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:08:06,288 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-12 11:08:09,407 - WARNING -  * Debugger is active!
+2024-10-12 11:08:09,408 - INFO -  * Debugger PIN: 135-613-746
+2024-10-12 11:08:09,459 - INFO - 127.0.0.1 - - [12/Oct/2024 11:08:09] "GET / HTTP/1.1" 200 -
+2024-10-12 11:09:52,222 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:09:52,223 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:09:52,920 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-12 11:09:56,171 - WARNING -  * Debugger is active!
+2024-10-12 11:09:56,172 - INFO -  * Debugger PIN: 135-613-746
+2024-10-12 11:09:56,228 - INFO - 127.0.0.1 - - [12/Oct/2024 11:09:56] "GET / HTTP/1.1" 200 -
+2024-10-12 11:10:04,204 - ERROR - El formato del JSON es incorrecto.
+2024-10-12 11:10:04,204 - INFO - 127.0.0.1 - - [12/Oct/2024 11:10:04] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2024-10-12 11:10:25,864 - INFO - 127.0.0.1 - - [12/Oct/2024 11:10:25] "POST /predict HTTP/1.1" 200 -
+2024-10-12 11:10:44,763 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:10:44,773 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:10:45,578 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-12 11:10:48,849 - WARNING -  * Debugger is active!
+2024-10-12 11:10:48,849 - INFO -  * Debugger PIN: 135-613-746
+2024-10-12 11:10:48,911 - INFO - 127.0.0.1 - - [12/Oct/2024 11:10:48] "GET / HTTP/1.1" 200 -
+2024-10-12 11:38:02,214 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:38:02,215 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:38:02,215 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:38:03,315 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-12 11:38:06,452 - WARNING -  * Debugger is active!
+2024-10-12 11:38:06,452 - INFO -  * Debugger PIN: 135-613-746
+2024-10-12 11:38:06,499 - INFO - 127.0.0.1 - - [12/Oct/2024 11:38:06] "GET / HTTP/1.1" 200 -
+2024-10-12 11:38:13,342 - INFO - 127.0.0.1 - - [12/Oct/2024 11:38:13] "POST /predict_text HTTP/1.1" 200 -
+2024-10-12 11:39:03,640 - INFO - Modelo reentrenado con precisión: 0.98, recall: 0.98, f1: 0.98
+2024-10-12 11:39:03,640 - INFO - 127.0.0.1 - - [12/Oct/2024 11:39:03] "POST /retrain HTTP/1.1" 200 -
+2024-10-12 11:39:20,680 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:39:20,681 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:39:20,681 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:39:20,969 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-12 11:39:24,147 - WARNING -  * Debugger is active!
+2024-10-12 11:39:24,147 - INFO -  * Debugger PIN: 135-613-746
+2024-10-12 11:39:24,189 - INFO - 127.0.0.1 - - [12/Oct/2024 11:39:24] "GET / HTTP/1.1" 200 -
+2024-10-12 11:39:49,347 - INFO - 127.0.0.1 - - [12/Oct/2024 11:39:49] "POST /retrain HTTP/1.1" 200 -
+2024-10-12 11:42:20,359 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:42:20,373 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:42:20,374 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:42:20,933 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-12 11:42:24,160 - WARNING -  * Debugger is active!
+2024-10-12 11:42:24,162 - INFO -  * Debugger PIN: 135-613-746
+2024-10-12 11:42:24,213 - INFO - 127.0.0.1 - - [12/Oct/2024 11:42:24] "GET / HTTP/1.1" 200 -
+2024-10-12 11:42:47,298 - INFO - Modelo reentrenado con precisión: 0.98, recall: 0.98, f1: 0.98
+2024-10-12 11:42:47,298 - INFO - 127.0.0.1 - - [12/Oct/2024 11:42:47] "POST /retrain HTTP/1.1" 200 -
+2024-10-12 11:43:33,042 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:43:33,042 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:43:33,042 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:43:33,690 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-12 11:43:36,802 - WARNING -  * Debugger is active!
+2024-10-12 11:43:36,802 - INFO -  * Debugger PIN: 135-613-746
+2024-10-12 11:43:36,824 - INFO - 127.0.0.1 - - [12/Oct/2024 11:43:36] "[33mGET /retrain HTTP/1.1[0m" 404 -
+2024-10-12 11:43:39,255 - INFO - 127.0.0.1 - - [12/Oct/2024 11:43:39] "[33mPOST /retrain HTTP/1.1[0m" 404 -
+2024-10-12 11:43:42,793 - INFO - 127.0.0.1 - - [12/Oct/2024 11:43:42] "[33mPOST /retrain HTTP/1.1[0m" 404 -
+2024-10-12 11:43:44,820 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:43:44,820 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:43:44,822 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:43:45,092 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-12 11:43:48,242 - WARNING -  * Debugger is active!
+2024-10-12 11:43:48,243 - INFO -  * Debugger PIN: 135-613-746
+2024-10-12 11:44:04,409 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:44:04,409 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:44:04,409 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:44:05,527 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-12 11:44:08,643 - WARNING -  * Debugger is active!
+2024-10-12 11:44:08,643 - INFO -  * Debugger PIN: 135-613-746
+2024-10-12 11:44:26,159 - INFO - 127.0.0.1 - - [12/Oct/2024 11:44:26] "POST /retrain HTTP/1.1" 200 -
+2024-10-12 11:44:33,801 - INFO - 127.0.0.1 - - [12/Oct/2024 11:44:33] "POST /predict_text HTTP/1.1" 200 -
+2024-10-12 11:44:39,036 - INFO - 127.0.0.1 - - [12/Oct/2024 11:44:39] "POST /predict HTTP/1.1" 200 -
+2024-10-12 11:46:13,225 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:46:13,225 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:46:13,225 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:46:13,225 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:46:13,421 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:46:13,421 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:46:13,421 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:46:13,421 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:46:13,578 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:46:13,578 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:46:13,578 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:46:13,733 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:46:13,733 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:46:13,733 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:46:14,055 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-12 11:46:17,367 - WARNING -  * Debugger is active!
+2024-10-12 11:46:17,369 - INFO -  * Debugger PIN: 135-613-746
+2024-10-12 11:46:17,425 - INFO - 127.0.0.1 - - [12/Oct/2024 11:46:17] "GET / HTTP/1.1" 200 -
+2024-10-12 11:46:32,030 - INFO - 127.0.0.1 - - [12/Oct/2024 11:46:32] "POST /predict_text HTTP/1.1" 200 -
+2024-10-12 11:46:53,488 - INFO - 127.0.0.1 - - [12/Oct/2024 11:46:53] "POST /predict HTTP/1.1" 200 -
+2024-10-12 11:47:07,825 - INFO - 127.0.0.1 - - [12/Oct/2024 11:47:07] "POST /retrain HTTP/1.1" 200 -
+2024-10-12 11:47:42,785 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\sklearn\\metrics\\_classification.py', reloading
+2024-10-12 11:47:43,107 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-12 11:47:46,330 - WARNING -  * Debugger is active!
+2024-10-12 11:47:46,331 - INFO -  * Debugger PIN: 135-613-746
+2024-10-12 11:47:57,191 - INFO - 127.0.0.1 - - [12/Oct/2024 11:47:57] "POST /retrain HTTP/1.1" 200 -
+2024-10-12 11:49:02,409 - INFO - 127.0.0.1 - - [12/Oct/2024 11:49:02] "GET / HTTP/1.1" 200 -
+2024-10-12 11:49:16,131 - INFO - 127.0.0.1 - - [12/Oct/2024 11:49:16] "POST /retrain HTTP/1.1" 200 -
+2024-10-12 11:49:22,772 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:49:22,774 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:49:22,775 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:49:23,195 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:49:23,196 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:49:23,196 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:49:23,440 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:49:23,441 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:49:23,441 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:49:23,442 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:49:23,815 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-12 11:49:27,099 - WARNING -  * Debugger is active!
+2024-10-12 11:49:27,101 - INFO -  * Debugger PIN: 135-613-746
+2024-10-12 11:49:27,141 - INFO - 127.0.0.1 - - [12/Oct/2024 11:49:27] "GET / HTTP/1.1" 200 -
+2024-10-12 11:49:49,103 - INFO - 127.0.0.1 - - [12/Oct/2024 11:49:49] "POST /retrain HTTP/1.1" 200 -
+2024-10-12 11:50:04,509 - INFO - 127.0.0.1 - - [12/Oct/2024 11:50:04] "POST /retrain HTTP/1.1" 200 -
+2024-10-12 11:50:12,350 - INFO - 127.0.0.1 - - [12/Oct/2024 11:50:12] "POST /predict_text HTTP/1.1" 200 -
+2024-10-12 11:50:50,011 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\modelo.py', reloading
+2024-10-12 11:50:51,123 - INFO -  * Restarting with watchdog (windowsapi)

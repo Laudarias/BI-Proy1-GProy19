@@ -12,7 +12,6 @@ logging.basicConfig(level=logging.INFO, filename='app.log',
 
 app = Flask(__name__)
 
-
 try:
     pipeline = joblib.load('modelo_entrenado.joblib')
 except Exception as e:
@@ -39,18 +38,31 @@ def home():
                 h1 {
                     color: #333;
                 }
+                .container {
+                    max-width: 800px;
+                    margin: 0 auto;
+                    background-color: #fff;
+                    border-radius: 10px;
+                    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+                    padding: 20px;
+                }
                 form {
-                    display: inline-block;
                     margin-top: 20px;
                     padding: 20px;
-                    background-color: #fff;
-                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
                     border-radius: 10px;
+                    background-color: #f9f9f9;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
                 }
-                input[type="file"] {
+                h2 {
+                    color: #007BFF;
+                }
+                input[type="file"], textarea {
                     padding: 10px;
                     margin: 10px 0;
                     display: block;
+                    width: 100%;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
                 }
                 input[type="submit"] {
                     background-color: #007BFF;
@@ -66,23 +78,38 @@ def home():
                 p {
                     color: red;
                 }
+                .message {
+                    margin-top: 20px;
+                    color: #d9534f;
+                }
             </style>
         </head>
         <body>
-            <h1>Bienvenido a la API de Predicción</h1>
-            <p>Sube un archivo JSON para obtener predicciones basadas en los textos proporcionados.</p>
-            {% if message %}
-                <p>{{ message }}</p>
-            {% endif %}
-            <form action="/predict" method="post" enctype="multipart/form-data">
-                <input type="file" name="file" accept=".json" required><br>
-                <input type="submit" value="Predecir">
-            </form>
-            <h2>Reentrenar el Modelo</h2>
-            <form action="/retrain" method="post" enctype="multipart/form-data">
-                <input type="file" name="file" accept=".json" required><br>
-                <input type="submit" value="Reentrenar">
-            </form>
+            <div class="container">
+                <h1>Bienvenido a la API de Predicción</h1>
+                <p>Sube un archivo JSON o introduce textos en formato JSON para obtener predicciones.</p>
+                {% if message %}
+                    <p class="message">{{ message }}</p>
+                {% endif %}
+                
+                <form action="/predict" method="post" enctype="multipart/form-data">
+                    <h2>Subir archivo JSON para predicción</h2>
+                    <input type="file" name="file" accept=".json" required>
+                    <input type="submit" value="Predecir">
+                </form>
+
+                <form action="/predict_text" method="post">
+                    <h2>Introducir texto en formato JSON</h2>
+                    <textarea name="json_input" rows="10" placeholder='Ejemplo: [{"Textos_espanol": "Texto para predecir"}]' required></textarea>
+                    <input type="submit" value="Predecir">
+                </form>
+
+                <form action="/retrain" method="post" enctype="multipart/form-data">
+                    <h2>Reentrenar el Modelo</h2>
+                    <input type="file" name="file" accept=".json" required>
+                    <input type="submit" value="Reentrenar">
+                </form>
+            </div>
         </body>
         </html>
     ''')
@@ -124,10 +151,43 @@ def predict():
 
     return jsonify(results)
 
-@app.route('/results', methods=['POST'])
-def results():
+@app.route('/predict_text', methods=['POST'])
+def predict_text():
+    if not pipeline:
+        logging.error("El modelo no está disponible.")
+        return jsonify({'error': 'El modelo no está disponible en este momento.'}), 500
+    
+    json_input = request.form['json_input']
 
-    return jsonify({'message': 'Esta función aún no está implementada.'})
+    try:
+        json_data = json.loads(json_input)
+    except Exception as e:
+        logging.error(f"Error al leer el texto JSON: {str(e)}")
+        return jsonify({'error': 'El texto no se pudo leer. Asegúrate de que esté en formato JSON válido.'}), 400
+    
+    if not isinstance(json_data, list) or len(json_data) == 0 or 'Textos_espanol' not in json_data[0]:
+        logging.error("El formato del JSON es incorrecto.")
+        return jsonify({'error': "El texto debe contener una lista de objetos con la clave 'Textos_espanol'."}), 400
+
+    texts = [item['Textos_espanol'] for item in json_data]
+
+    try:
+        predictions = pipeline.predict(texts)
+        probabilities = pipeline.predict_proba(texts)
+    except Exception as e:
+        logging.error(f"Error al realizar la predicción: {str(e)}")
+        return jsonify({'error': 'Error en la predicción. Verifica que el modelo y los datos sean correctos.'}), 500
+    
+    results = []
+    for i, texto in enumerate(texts):
+        results.append({
+            'comentario': texto,
+            'predicción': int(predictions[i]), 
+            'probabilidad': float(max(probabilities[i]))  
+        })
+
+    return jsonify(results)
+
 @app.route('/retrain', methods=['POST'])
 def retrain():
     global pipeline  
