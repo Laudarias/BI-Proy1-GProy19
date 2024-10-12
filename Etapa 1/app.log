@@ -867,3 +867,6 @@
 2024-10-12 16:50:39,879 - INFO - 127.0.0.1 - - [12/Oct/2024 16:50:39] "POST /predict_text HTTP/1.1" 200 -
 2024-10-12 16:50:48,980 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\prueba.py', reloading
 2024-10-12 16:50:49,492 - INFO -  * Restarting with stat
+2024-10-12 16:50:53,254 - WARNING -  * Debugger is active!
+2024-10-12 16:50:53,254 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 16:50:53,350 - INFO - 127.0.0.1 - - [12/Oct/2024 16:50:53] "POST /predict_text HTTP/1.1" 200 -
