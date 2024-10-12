@@ -24,10 +24,8 @@ except Exception as e:
 @app.route('/predict', methods=['POST'])
 def predict():
 
-
-
     json_data = request.get_json()
-    print(json_data)
+    print(json_data[0])
     if not isinstance(json_data, list) or len(json_data) == 0 or 'Textos_espanol' not in json_data[0]:
         logging.error("El formato del JSON es incorrecto.")
         return jsonify({'error': "El archivo debe contener una lista de objetos con la clave 'Textos_espanol'."}), 400

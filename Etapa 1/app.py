@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, render_template_string
+from flask import Flask, request, jsonify, render_template_string, send_file
 import joblib
 import pandas as pd
 import json
@@ -99,11 +99,6 @@ def home():
                     <input type="submit" value="Predecir">
                 </form>
 
-                <form action="/predict_text" method="post">
-                    <h2>Introducir texto en formato JSON</h2>
-                    <textarea name="json_input" rows="10" placeholder='Ejemplo: [{"Textos_espanol": "Texto para predecir"}]' required></textarea>
-                    <input type="submit" value="Predecir">
-                </form>
 
                 <form action="/retrain" method="post" enctype="multipart/form-data">
                     <h2>Reentrenar el Modelo</h2>
@@ -115,88 +110,38 @@ def home():
         </html>
     ''')
 
+
 @app.route('/predict', methods=['POST'])
 def predict():
-
+    # Cargar el archivo de entrada desde el formulario
     file = request.files['file']
-
     df = pd.read_excel(file)
 
+    # Convertir el contenido del archivo en una lista de textos
     textos = df.iloc[1:, 0].tolist()
-
     json_data = [{"Textos_espanol": texto} for texto in textos]
+    print(json_data[0])
 
-    ##Nuevo codigo
+    # Enviar la solicitud al servidor con el JSON generado
     url = 'http://localhost:5000/predict'
-    response = requests.post(url, json_data)
-    ##fin
-    """
-    if not isinstance(json_data, list) or len(json_data) == 0 or 'Textos_espanol' not in json_data[0]:
-        logging.error("El formato del JSON es incorrecto.")
-        return jsonify({'error': "El archivo debe contener una lista de objetos con la clave 'Textos_espanol'."}), 400
-    
-    texts = [item['Textos_espanol'] for item in json_data]
+    response = requests.post(url, json=json_data)
 
-    try:
-        predictions = pipeline.predict(texts)
-        probabilities = pipeline.predict_proba(texts)
-    except Exception as e:
-        logging.error(f"Error al realizar la predicción: {str(e)}")
-        return jsonify({'error': 'Error en la predicción. Verifica que el modelo y los datos sean correctos.'}), 500
-    
-    results = []
-    for i, texto in enumerate(texts):
-        results.append({
-            'prediccion': int(predictions[i]), 
-            'probabilidad': float(max(probabilities[i]))  
-        })
-    """
-    return jsonify(response)
+    if response.status_code == 200:
+        # Convertir la respuesta en JSON a un DataFrame
+        response_data = response.json()
+        df_response = pd.DataFrame(response_data)
 
-@app.route('/predict_text', methods=['POST'])
-def predict_text():
+        # Guardar el DataFrame en un archivo Excel
+        file_path = 'respuesta_generada.xlsx'
+        df_response.to_excel(file_path, index=False)
 
-    #nuevo codigo
-    url = 'http://localhost:5000/predict_text'
-    response = requests.post(url, json=request.form['json_input'])
-    #fin nuevo código
+        # Enviar el archivo Excel al cliente para que se descargue
+        return send_file(file_path, as_attachment=True, download_name='respuesta_generada.xlsx', mimetype='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
+    else:
+        return jsonify({'error': 'Error al hacer la solicitud al servidor.'}), response.status_code
 
-    """
 
-    if not pipeline:
-        logging.error("El modelo no está disponible.")
-        return jsonify({'error': 'El modelo no está disponible en este momento.'}), 500
-    
-    json_input = request.form['json_input']
-
-    try:
-        json_data = json.loads(json_input)
-    except Exception as e:
-        logging.error(f"Error al leer el texto JSON: {str(e)}")
-        return jsonify({'error': 'El texto no se pudo leer. Asegúrate de que esté en formato JSON válido.'}), 400
-    
-    if not isinstance(json_data, list) or len(json_data) == 0 or 'Textos_espanol' not in json_data[0]:
-        logging.error("El formato del JSON es incorrecto.")
-        return jsonify({'error': "El texto debe contener una lista de objetos con la clave 'Textos_espanol'."}), 400
-
-    texts = [item['Textos_espanol'] for item in json_data]
-
-    try:
-        predictions = pipeline.predict(texts)
-        print(predictions)
-        probabilities = pipeline.predict_proba(texts)
-    except Exception as e:
-        logging.error(f"Error al realizar la predicción: {str(e)}")
-        return jsonify({'error': 'Error en la predicción. Verifica que el modelo y los datos sean correctos.'}), 500
-    
-    results = []
-    for i, texto in enumerate(texts):
-        results.append({
-            'prediccion': int(predictions[i]), 
-            'probabilidad': float(max(probabilities[i]))  
-        })
- """
-    return  response.json()
+ 
 
 @app.route('/retrain', methods=['POST'])
 def retrain():
