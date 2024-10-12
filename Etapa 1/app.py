@@ -144,8 +144,7 @@ def predict():
     results = []
     for i, texto in enumerate(texts):
         results.append({
-            'comentario': texto,
-            'predicción': int(predictions[i]), 
+            'prediccion': int(predictions[i]), 
             'probabilidad': float(max(probabilities[i]))  
         })
 
@@ -181,8 +180,7 @@ def predict_text():
     results = []
     for i, texto in enumerate(texts):
         results.append({
-            'comentario': texto,
-            'predicción': int(predictions[i]), 
+            'prediccion': int(predictions[i]), 
             'probabilidad': float(max(probabilities[i]))  
         })
 

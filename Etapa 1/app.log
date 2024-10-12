@@ -453,3 +453,54 @@
 2024-10-12 11:50:12,350 - INFO - 127.0.0.1 - - [12/Oct/2024 11:50:12] "POST /predict_text HTTP/1.1" 200 -
 2024-10-12 11:50:50,011 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\modelo.py', reloading
 2024-10-12 11:50:51,123 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-12 11:50:54,306 - WARNING -  * Debugger is active!
+2024-10-12 11:50:54,306 - INFO -  * Debugger PIN: 135-613-746
+2024-10-12 11:52:12,150 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:52:12,150 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:52:12,150 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:52:12,419 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:52:12,419 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:52:12,423 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:52:12,828 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-12 11:52:16,051 - WARNING -  * Debugger is active!
+2024-10-12 11:52:16,051 - INFO -  * Debugger PIN: 135-613-746
+2024-10-12 11:52:16,114 - INFO - 127.0.0.1 - - [12/Oct/2024 11:52:16] "GET / HTTP/1.1" 200 -
+2024-10-12 11:52:19,026 - INFO - 127.0.0.1 - - [12/Oct/2024 11:52:19] "POST /predict HTTP/1.1" 200 -
+2024-10-12 11:52:26,579 - INFO - 127.0.0.1 - - [12/Oct/2024 11:52:26] "POST /predict_text HTTP/1.1" 200 -
+2024-10-12 11:55:03,556 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:55:03,556 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:55:03,557 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:55:03,826 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-12 11:55:07,142 - WARNING -  * Debugger is active!
+2024-10-12 11:55:07,142 - INFO -  * Debugger PIN: 135-613-746
+2024-10-12 11:55:07,190 - INFO - 127.0.0.1 - - [12/Oct/2024 11:55:07] "GET / HTTP/1.1" 200 -
+2024-10-12 11:55:11,065 - INFO - 127.0.0.1 - - [12/Oct/2024 11:55:11] "POST /predict_text HTTP/1.1" 200 -
+2024-10-12 11:57:41,092 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:57:41,096 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:57:41,096 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\BI-Proy1-GProy19-2\\Etapa 1\\app.py', reloading
+2024-10-12 11:57:41,796 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-12 11:57:44,922 - WARNING -  * Debugger is active!
+2024-10-12 11:57:44,922 - INFO -  * Debugger PIN: 135-613-746
+2024-10-12 11:58:21,049 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\nltk\\tokenize\\regexp.py', reloading
+2024-10-12 11:58:21,300 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-12 11:58:24,793 - WARNING -  * Debugger is active!
+2024-10-12 11:58:24,794 - INFO -  * Debugger PIN: 135-613-746
+2024-10-12 12:03:57,610 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\scipy\\sparse\\__init__.py', reloading
+2024-10-12 12:03:57,610 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\scipy\\sparse\\_base.py', reloading
+2024-10-12 12:03:57,624 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\scipy\\sparse\\_csr.py', reloading
+2024-10-12 12:03:57,624 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\scipy\\sparse\\_csc.py', reloading
+2024-10-12 12:03:57,624 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\scipy\\sparse\\_lil.py', reloading
+2024-10-12 12:03:57,640 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\scipy\\sparse\\_dok.py', reloading
+2024-10-12 12:03:57,655 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\scipy\\sparse\\_coo.py', reloading
+2024-10-12 12:03:57,655 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\scipy\\sparse\\_dia.py', reloading
+2024-10-12 12:03:57,655 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\scipy\\sparse\\_bsr.py', reloading
+2024-10-12 12:03:57,676 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\scipy\\sparse\\_construct.py', reloading
+2024-10-12 12:03:57,688 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\scipy\\sparse\\_extract.py', reloading
+2024-10-12 12:03:57,689 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\scipy\\sparse\\_matrix_io.py', reloading
+2024-10-12 12:03:57,695 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\scipy\\sparse\\_matrix.py', reloading
+2024-10-12 12:03:57,696 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\numpy\\typing\\__init__.py', reloading
+2024-10-12 12:03:57,697 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\numpy\\_typing\\__init__.py', reloading
+2024-10-12 12:03:57,699 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\numpy\\_typing\\_array_like.py', reloading
+2024-10-12 12:03:57,701 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\numpy\\_typing\\_nested_sequence.py', reloading
+2024-10-12 12:03:57,702 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Documents\\TecnologiasSextoSemestre\\Lib\\site-packages\\numpy\\_utils\\__init__.py', reloading
+2024-10-12 12:03:58,127 - INFO -  * Restarting with watchdog (windowsapi)
