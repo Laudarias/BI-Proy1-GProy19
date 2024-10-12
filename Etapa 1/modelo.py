@@ -11,6 +11,18 @@ from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.feature_extraction.text import CountVectorizer
+import subprocess
+import sys
+import nltk
+nltk.download('all')
+
+def install(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+
+packages = ["inflect", "openpyxl", "scikit-learn"]
+
+for package in packages:
+    install(package)
 
 class TextPreprocessing:
     def __init__(self, stopwords=stopwords.words('spanish')):
