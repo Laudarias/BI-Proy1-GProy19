@@ -6,6 +6,7 @@ from sklearn.metrics import f1_score, precision_score, recall_score
 from modelo import TextPreprocessing
 import logging
 import numpy as np  
+import requests
 
 logging.basicConfig(level=logging.INFO, filename='app.log', 
                     format='%(asctime)s - %(levelname)s - %(message)s')
@@ -116,10 +117,7 @@ def home():
 
 @app.route('/predict', methods=['POST'])
 def predict():
-    if not pipeline:
-        logging.error("El modelo no está disponible.")
-        return jsonify({'error': 'El modelo no está disponible en este momento.'}), 500
-    
+
     file = request.files['file']
 
     df = pd.read_excel(file)
@@ -128,6 +126,11 @@ def predict():
 
     json_data = [{"Textos_espanol": texto} for texto in textos]
 
+    ##Nuevo codigo
+    url = 'http://localhost:5000/predict'
+    response = requests.post(url, json_data)
+    ##fin
+    """
     if not isinstance(json_data, list) or len(json_data) == 0 or 'Textos_espanol' not in json_data[0]:
         logging.error("El formato del JSON es incorrecto.")
         return jsonify({'error': "El archivo debe contener una lista de objetos con la clave 'Textos_espanol'."}), 400
@@ -147,11 +150,19 @@ def predict():
             'prediccion': int(predictions[i]), 
             'probabilidad': float(max(probabilities[i]))  
         })
-
-    return jsonify(results)
+    """
+    return jsonify(response)
 
 @app.route('/predict_text', methods=['POST'])
 def predict_text():
+
+    #nuevo codigo
+    url = 'http://localhost:5000/predict_text'
+    response = requests.post(url, json=request.form['json_input'])
+    #fin nuevo código
+
+    """
+
     if not pipeline:
         logging.error("El modelo no está disponible.")
         return jsonify({'error': 'El modelo no está disponible en este momento.'}), 500
@@ -184,8 +195,8 @@ def predict_text():
             'prediccion': int(predictions[i]), 
             'probabilidad': float(max(probabilities[i]))  
         })
-
-    return jsonify(results)
+ """
+    return  response.json()
 
 @app.route('/retrain', methods=['POST'])
 def retrain():
@@ -253,4 +264,4 @@ def retrain():
     return jsonify(metrics)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True,  port=5001)

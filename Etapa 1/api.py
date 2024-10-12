@@ -20,19 +20,22 @@ except Exception as e:
     logging.error(f"Error al cargar el modelo: {str(e)}")
     pipeline = None
 
-@app.route('/predict_text', methods=['POST'])
-def predict_text(): 
-    json_data = (request.get_json())
+
+@app.route('/predict', methods=['POST'])
+def predict():
+
+
+
+    json_data = request.get_json()
     print(json_data)
     if not isinstance(json_data, list) or len(json_data) == 0 or 'Textos_espanol' not in json_data[0]:
         logging.error("El formato del JSON es incorrecto.")
-        return jsonify({'error': "El texto debe contener una lista de objetos con la clave 'Textos_espanol'."}), 400
-
+        return jsonify({'error': "El archivo debe contener una lista de objetos con la clave 'Textos_espanol'."}), 400
+    
     texts = [item['Textos_espanol'] for item in json_data]
 
     try:
         predictions = pipeline.predict(texts)
-        print(predictions)
         probabilities = pipeline.predict_proba(texts)
     except Exception as e:
         logging.error(f"Error al realizar la predicción: {str(e)}")
@@ -45,7 +48,7 @@ def predict_text():
             'probabilidad': float(max(probabilities[i]))  
         })
 
-    return jsonify(results) 
+    return jsonify(results)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True,  port=5000)
