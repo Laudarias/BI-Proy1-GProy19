@@ -1798,3 +1798,5 @@
 2024-10-12 19:15:03,909 - INFO -  * Debugger PIN: 109-054-032
 2024-10-12 19:15:04,950 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\app.py', reloading
 2024-10-12 19:15:05,255 - INFO -  * Restarting with stat
+2024-10-12 19:15:09,914 - WARNING -  * Debugger is active!
+2024-10-12 19:15:09,918 - INFO -  * Debugger PIN: 109-054-032
