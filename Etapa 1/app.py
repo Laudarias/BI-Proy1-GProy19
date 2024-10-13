@@ -102,7 +102,7 @@ def home():
 
                 <form action="/retrain" method="post" enctype="multipart/form-data">
                     <h2>Reentrenar el Modelo</h2>
-                    <input type="file" name="file" accept=".json" required>
+                    <input type="file" name="file" accept=".xlsx" required>
                     <input type="submit" value="Reentrenar">
                 </form>
             </div>
@@ -113,36 +113,32 @@ def home():
 
 @app.route('/predict', methods=['POST'])
 def predict():
-    # Cargar el archivo de entrada desde el formulario
+  
     file = request.files['file']
     df = pd.read_excel(file)
 
-    # Convertir el contenido del archivo en una lista de textos
     textos = df.iloc[1:, 0].tolist()
     json_data = [{"Textos_espanol": texto} for texto in textos]
     print(json_data[0])
 
-    # Enviar la solicitud al servidor con el JSON generado
     url = 'http://localhost:5000/predict'
     response = requests.post(url, json=json_data)
 
     if response.status_code == 200:
-        # Convertir la respuesta en JSON a un DataFrame
+   
         response_data = response.json()
         df_response = pd.DataFrame(response_data)
 
-        # Guardar el DataFrame en un archivo Excel
+      
         file_path = 'respuesta_generada.xlsx'
         df_response.to_excel(file_path, index=False)
 
-        # Enviar el archivo Excel al cliente para que se descargue
         return send_file(file_path, as_attachment=True, download_name='respuesta_generada.xlsx', mimetype='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
     else:
         return jsonify({'error': 'Error al hacer la solicitud al servidor.'}), response.status_code
 
 
  
-
 @app.route('/retrain', methods=['POST'])
 def retrain():
     global pipeline  
@@ -154,59 +150,44 @@ def retrain():
     file = request.files['file']
 
     try:
-        json_data = json.load(file)
+
+        df_nuevos_datos = pd.read_excel(file)  
     except Exception as e:
-        logging.error(f"Error al leer el archivo JSON: {str(e)}")
-        return jsonify({'error': 'El archivo no se pudo leer. Asegúrate de que sea un archivo .json válido.'}), 400
-    
-    try:
-        df_nuevos_datos = pd.DataFrame(json_data)
-    except Exception as e:
-        logging.error(f"Error al convertir los datos: {str(e)}")
-        return jsonify({'error': 'Los datos no son válidos. Asegúrate de que estén en el formato correcto.'}), 400
+        logging.error(f"Error al leer el archivo Excel: {str(e)}")
+        return jsonify({'error': 'El archivo no se pudo leer. Asegúrate de que sea un archivo .xlsx válido.'}), 400
     
     required_columns = ['Textos_espanol', 'sdg']
     if not all(col in df_nuevos_datos.columns for col in required_columns):
         return jsonify({'error': "El DataFrame debe contener las columnas 'Textos_espanol' y 'sdg'."}), 400
     
-    try:
-        df_datos_existentes = pd.read_excel('datos.xlsx') 
-    except Exception as e:
-        logging.error(f"Error al leer el archivo datos.xlsx: {str(e)}")
-        return jsonify({'error': 'No se pudo leer el archivo datos.xlsx.'}), 500
-    
-    if not all(col in df_datos_existentes.columns for col in required_columns):
-        return jsonify({'error': "El archivo 'datos.xlsx' debe contener las columnas 'Textos_espanol' y 'sdg'."}), 400
+
     
     try:
+    
+        X_nuevos = df_nuevos_datos['Textos_espanol']
+        y_nuevos = df_nuevos_datos['sdg']
 
-        df_combinados = pd.concat([df_datos_existentes, df_nuevos_datos], ignore_index=True)
+        pipeline.fit(X_nuevos, y_nuevos)
 
-        df_combinados.to_excel('datos.xlsx', index=False)  
+        joblib.dump(pipeline, 'modelo_actualizado.joblib')
+
+        y_pred = pipeline.predict(X_nuevos)
+
+        precision = precision_score(y_nuevos, y_pred, average='weighted')
+        recall = recall_score(y_nuevos, y_pred, average='weighted')
+        f1 = f1_score(y_nuevos, y_pred, average='weighted')
+        
+        metrics = {
+            'precision': float(precision), 
+            'recall': float(recall),        
+            'f1_score': float(f1)           
+        }
+
+        return jsonify(metrics)
+    
     except Exception as e:
-        logging.error(f"Error al combinar y guardar los datos: {str(e)}")
-        return jsonify({'error': 'No se pudieron combinar y guardar los datos.'}), 500
-    
-    X_combinados = df_combinados['Textos_espanol']
-    y_combinados = df_combinados['sdg']
-
-    pipeline.fit(X_combinados, y_combinados)
-
-    joblib.dump(pipeline, 'modelo_actualizado.joblib')
-
-    y_pred = pipeline.predict(X_combinados)
-
-    precision = precision_score(y_combinados, y_pred, average='weighted')
-    recall = recall_score(y_combinados, y_pred, average='weighted')
-    f1 = f1_score(y_combinados, y_pred, average='weighted')
-    
-    metrics = {
-        'precision': float(precision), 
-        'recall': float(recall),        
-        'f1_score': float(f1)           
-    }
-
-    return jsonify(metrics)
+        logging.error(f"Error durante el reentrenamiento incremental: {str(e)}")
+        return jsonify({'error': 'Error durante el reentrenamiento incremental.'})
 
 if __name__ == '__main__':
     app.run(debug=True,  port=5001)

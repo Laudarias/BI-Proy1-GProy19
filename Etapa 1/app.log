@@ -1733,3 +1733,68 @@
 2024-10-12 18:47:05,628 - INFO - 127.0.0.1 - - [12/Oct/2024 18:47:05] "POST /predict HTTP/1.1" 200 -
 2024-10-12 18:50:53,887 - INFO - 127.0.0.1 - - [12/Oct/2024 18:50:53] "POST /predict HTTP/1.1" 200 -
 2024-10-12 18:50:54,255 - INFO - 127.0.0.1 - - [12/Oct/2024 18:50:54] "POST /predict HTTP/1.1" 200 -
+2024-10-12 19:08:20,412 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\app.py', reloading
+2024-10-12 19:08:20,697 - INFO -  * Restarting with stat
+2024-10-12 19:08:20,941 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\app.py', reloading
+2024-10-12 19:08:21,280 - INFO -  * Restarting with stat
+2024-10-12 19:08:25,060 - WARNING -  * Debugger is active!
+2024-10-12 19:08:25,063 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 19:09:00,420 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\app.py', reloading
+2024-10-12 19:09:00,668 - INFO -  * Restarting with stat
+2024-10-12 19:09:24,448 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2024-10-12 19:09:24,448 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-12 19:09:24,449 - INFO -  * Restarting with stat
+2024-10-12 19:09:28,805 - WARNING -  * Debugger is active!
+2024-10-12 19:09:28,809 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 19:09:30,784 - INFO - 127.0.0.1 - - [12/Oct/2024 19:09:30] "GET / HTTP/1.1" 200 -
+2024-10-12 19:10:00,098 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\app.py', reloading
+2024-10-12 19:10:00,423 - INFO -  * Restarting with stat
+2024-10-12 19:10:05,467 - WARNING -  * Debugger is active!
+2024-10-12 19:10:05,470 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 19:10:58,887 - INFO - 127.0.0.1 - - [12/Oct/2024 19:10:58] "GET / HTTP/1.1" 200 -
+2024-10-12 19:11:37,937 - INFO - 127.0.0.1 - - [12/Oct/2024 19:11:37] "POST /retrain HTTP/1.1" 200 -
+2024-10-12 19:12:07,048 - INFO - 127.0.0.1 - - [12/Oct/2024 19:12:07] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2024-10-12 19:12:07,068 - INFO - 127.0.0.1 - - [12/Oct/2024 19:12:07] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-12 19:12:07,379 - INFO - 127.0.0.1 - - [12/Oct/2024 19:12:07] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-12 19:12:07,735 - INFO - 127.0.0.1 - - [12/Oct/2024 19:12:07] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-12 19:12:07,994 - INFO - 127.0.0.1 - - [12/Oct/2024 19:12:07] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-12 19:12:33,071 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-12 19:12:33,071 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-12 19:12:33,073 - INFO -  * Restarting with stat
+2024-10-12 19:12:37,122 - WARNING -  * Debugger is active!
+2024-10-12 19:12:37,125 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 19:12:56,100 - INFO - 127.0.0.1 - - [12/Oct/2024 19:12:56] "POST /predict HTTP/1.1" 200 -
+2024-10-12 19:12:56,440 - INFO - 127.0.0.1 - - [12/Oct/2024 19:12:56] "POST /predict HTTP/1.1" 200 -
+2024-10-12 19:13:38,265 - INFO - 127.0.0.1 - - [12/Oct/2024 19:13:38] "POST /retrain HTTP/1.1" 200 -
+2024-10-12 19:14:01,909 - INFO - 127.0.0.1 - - [12/Oct/2024 19:14:01] "POST /predict HTTP/1.1" 200 -
+2024-10-12 19:14:02,263 - INFO - 127.0.0.1 - - [12/Oct/2024 19:14:02] "POST /predict HTTP/1.1" 200 -
+2024-10-12 19:14:31,218 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\app.py', reloading
+2024-10-12 19:14:31,495 - INFO -  * Restarting with stat
+2024-10-12 19:14:31,764 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\app.py', reloading
+2024-10-12 19:14:32,198 - INFO -  * Restarting with stat
+2024-10-12 19:14:37,163 - WARNING -  * Debugger is active!
+2024-10-12 19:14:37,167 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 19:14:37,790 - WARNING -  * Debugger is active!
+2024-10-12 19:14:37,793 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 19:14:38,189 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\app.py', reloading
+2024-10-12 19:14:38,460 - INFO -  * Restarting with stat
+2024-10-12 19:14:38,819 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\app.py', reloading
+2024-10-12 19:14:39,133 - INFO -  * Restarting with stat
+2024-10-12 19:14:42,983 - WARNING -  * Debugger is active!
+2024-10-12 19:14:42,987 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 19:14:45,016 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\app.py', reloading
+2024-10-12 19:14:45,304 - INFO -  * Restarting with stat
+2024-10-12 19:14:49,892 - WARNING -  * Debugger is active!
+2024-10-12 19:14:49,898 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 19:14:50,927 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\app.py', reloading
+2024-10-12 19:14:51,291 - INFO -  * Restarting with stat
+2024-10-12 19:14:56,040 - WARNING -  * Debugger is active!
+2024-10-12 19:14:56,044 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 19:14:59,082 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\app.py', reloading
+2024-10-12 19:14:59,357 - INFO -  * Restarting with stat
+2024-10-12 19:15:03,900 - WARNING -  * Debugger is active!
+2024-10-12 19:15:03,909 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 19:15:04,950 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\app.py', reloading
+2024-10-12 19:15:05,255 - INFO -  * Restarting with stat
