@@ -87,14 +87,14 @@ def home():
         </head>
         <body>
             <div class="container">
-                <h1>Bienvenido a la API de Predicción</h1>
-                <p>Sube un archivo XLSX o introduce textos en formato JSON para obtener predicciones.</p>
+                <h1>Bienvenido a la API de Clasificación de ODS</h1>
+                <p>Sube un archivo XLSX para obtener clasificaciones.</p>
                 {% if message %}
                     <p class="message">{{ message }}</p>
                 {% endif %}
                 
                 <form action="/predict" method="post" enctype="multipart/form-data">
-                    <h2>Subir archivo XLSX para predicción</h2>
+                    <h2>Subir archivo XLSX para clasificar</h2>
                     <input type="file" name="file" accept=".xlsx" required>
                     <input type="submit" value="Predecir">
                 </form>
