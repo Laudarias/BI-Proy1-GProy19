@@ -1846,3 +1846,25 @@
 2024-10-12 19:35:50,375 - INFO -  * Detected change in 'C:\\Users\\GATOTEC18\\Documents\\BI\\P1E2\\BI-Proy1-GProy19\\Etapa 1\\app.py', reloading
 2024-10-12 19:35:50,524 - INFO -  * Restarting with stat
 2024-10-12 19:35:50,667 - INFO -  * Restarting with stat
+2024-10-12 19:35:54,477 - WARNING -  * Debugger is active!
+2024-10-12 19:35:54,480 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 19:35:54,663 - WARNING -  * Debugger is active!
+2024-10-12 19:35:54,665 - INFO -  * Debugger PIN: 109-054-032
+2024-10-12 19:35:54,677 - INFO - 127.0.0.1 - - [12/Oct/2024 19:35:54] "GET / HTTP/1.1" 200 -
+2024-10-12 19:37:12,563 - INFO - 127.0.0.1 - - [12/Oct/2024 19:37:12] "POST /predict HTTP/1.1" 200 -
+2024-10-12 19:37:12,892 - INFO - 127.0.0.1 - - [12/Oct/2024 19:37:12] "POST /predict HTTP/1.1" 200 -
+2024-10-12 19:38:11,691 - INFO - 127.0.0.1 - - [12/Oct/2024 19:38:11] "POST /retrain HTTP/1.1" 200 -
+2024-10-12 19:40:35,002 - INFO - 127.0.0.1 - - [12/Oct/2024 19:40:35] "GET / HTTP/1.1" 200 -
+2024-10-12 19:42:08,041 - INFO - 127.0.0.1 - - [12/Oct/2024 19:42:08] "POST /predict HTTP/1.1" 200 -
+2024-10-12 19:42:08,362 - INFO - 127.0.0.1 - - [12/Oct/2024 19:42:08] "POST /predict HTTP/1.1" 200 -
+2024-10-12 19:43:03,029 - ERROR - Error durante el reentrenamiento incremental: Input y contains NaN.
+2024-10-12 19:43:03,029 - INFO - 127.0.0.1 - - [12/Oct/2024 19:43:03] "POST /retrain HTTP/1.1" 200 -
+2024-10-12 19:45:07,791 - INFO - 127.0.0.1 - - [12/Oct/2024 19:45:07] "POST /predict HTTP/1.1" 200 -
+2024-10-12 19:45:08,113 - INFO - 127.0.0.1 - - [12/Oct/2024 19:45:08] "POST /predict HTTP/1.1" 200 -
+2024-10-12 19:47:01,542 - INFO - 127.0.0.1 - - [12/Oct/2024 19:47:01] "POST /predict HTTP/1.1" 200 -
+2024-10-12 19:47:01,812 - INFO - 127.0.0.1 - - [12/Oct/2024 19:47:01] "POST /predict HTTP/1.1" 200 -
+2024-10-12 19:48:52,051 - INFO - 127.0.0.1 - - [12/Oct/2024 19:48:52] "POST /predict HTTP/1.1" 200 -
+2024-10-12 19:48:52,319 - INFO - 127.0.0.1 - - [12/Oct/2024 19:48:52] "POST /predict HTTP/1.1" 200 -
+2024-10-12 19:49:57,029 - INFO - 127.0.0.1 - - [12/Oct/2024 19:49:57] "POST /predict HTTP/1.1" 200 -
+2024-10-12 19:49:57,300 - INFO - 127.0.0.1 - - [12/Oct/2024 19:49:57] "POST /predict HTTP/1.1" 200 -
+2024-10-12 19:50:44,992 - INFO - 127.0.0.1 - - [12/Oct/2024 19:50:44] "POST /retrain HTTP/1.1" 200 -
